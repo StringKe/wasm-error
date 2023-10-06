@@ -1,0 +1,10 @@
+[package]
+name = "online-logo-design-wasm"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["skia-safe/textlayout", "skia-safe/svg","skia-safe/ureq"]
+
+[dependencies]
+skia-safe = "0.66.3"

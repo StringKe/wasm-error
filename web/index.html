@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <title>rust-skia Wasm sample</title>
+    <script src="../target/wasm32-unknown-emscripten/debug/online-logo-design-wasm.js"></script>
+</head>
+<body>
+<div>loaded</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        console.log('DOMContentLoaded')
+        console.log("window", window)
+        console.log("window.module", window.Module)
+    });
+</script>
+</body>
+</html>
